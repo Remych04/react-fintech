@@ -1,4 +1,22 @@
 .header {
-  background-color: tomato;
-  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 30px;
+  padding-right: 40px;
+  gap: 24px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.avatar {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+
+.avatar:hover {
+  cursor: pointer;
 }

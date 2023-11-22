@@ -12,6 +12,9 @@
 }
 
 .activeBlock {
+  -webkit-transition: background 333ms linear;
+  -ms-transition: background 333ms linear;
+  transition: background 333ms linear;
   border-radius: 6px;
   background: #e5f1ff;
 }
