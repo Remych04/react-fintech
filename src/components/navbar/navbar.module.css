@@ -4,4 +4,28 @@
   border-right: 2px;
   border-color: #e8ecf5;
   border-style: solid;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-family: "Poppins", sans-serif;
+  color: #2f2f32;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 12px;
+}
+
+.navButtons {
+  display: flex;
+  flex-direction: column;
 }
