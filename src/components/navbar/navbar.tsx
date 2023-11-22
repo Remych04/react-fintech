@@ -11,12 +11,12 @@ import AnalyticsSvg from "../../assets/navbar/analytics.svg?react";
 import { NavButton } from "./navbutton/navbutton";
 
 const buttons = [
-  { text: "Dashobard", svg: DashboardSvg },
-  { text: "Invoices", svg: InvoicesSvg },
-  { text: "Messages", svg: MessagesSvg },
-  { text: "My Wallets", svg: MyWalletsSvg },
-  { text: "Activity", svg: ActivitySvg },
-  { text: "Analytics", svg: AnalyticsSvg },
+  { text: "Dashobard", svg: DashboardSvg, path: "/dashboard" },
+  { text: "Invoices", svg: InvoicesSvg, path: "/invoices" },
+  { text: "Messages", svg: MessagesSvg, path: "/messages" },
+  { text: "My Wallets", svg: MyWalletsSvg, path: "/wallets" },
+  { text: "Activity", svg: ActivitySvg, path: "/activity" },
+  { text: "Analytics", svg: AnalyticsSvg, path: "/analytics" },
 ];
 
 export function Navbar() {
@@ -27,15 +27,13 @@ export function Navbar() {
         <p className={styles.name}>Fintech</p>
       </div>
       <div className={styles.navButtons}>
-        {buttons.map((button, index) => {
-          //TODO check active
-          const isActive = index === 0;
+        {buttons.map((button) => {
           return (
             <NavButton
               key={button.text}
               text={button.text}
               SVG={button.svg}
-              isActive={isActive}
+              path={button.path}
             />
           );
         })}
