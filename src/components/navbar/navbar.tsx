@@ -1,5 +1,5 @@
 import styles from "./navbar.module.css";
-import FintechLogo from "../../assets/logo.svg";
+import EpsilonLogo from "../../assets/logo.svg";
 
 import DashboardSvg from "../../assets/navbar/dashboard.svg?react";
 import InvoicesSvg from "../../assets/navbar/invoices.svg?react";
@@ -23,8 +23,8 @@ export function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <img width="30px" height="30px" src={FintechLogo} alt="Fintech Logo" />
-        <p className={styles.name}>Fintech</p>
+        <img width="30px" height="30px" src={EpsilonLogo} alt="Epsilon Logo" />
+        <p className={styles.name}>Epsilon</p>
       </div>
       <div className={styles.navButtons}>
         {buttons.map((button) => {
