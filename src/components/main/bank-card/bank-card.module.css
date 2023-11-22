@@ -1,0 +1,58 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  background: rgb(1, 119, 251);
+  background: linear-gradient(
+    135deg,
+    rgba(1, 119, 251, 1) 0%,
+    rgba(29, 150, 255, 1) 25%,
+    rgba(1, 119, 251, 1) 50%,
+    rgba(29, 150, 255, 1) 75%,
+    rgba(1, 119, 251, 1) 100%
+  );
+  height: 148px;
+  padding: 16px 20px;
+}
+
+.namesBlock {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 4px;
+}
+
+.name {
+  font-size: 12px;
+}
+
+.namesCreds {
+  font-size: 18px;
+}
+
+.cardCredsServiceBlock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardCredsBlock {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  gap: 4px;
+}
+
+.cardNumber {
+  font-size: 14px;
+}
+
+.cardDate {
+  font-size: 11px;
+}
+
+p {
+  color: #fff;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}

@@ -1,7 +1,8 @@
 :root {
-  font-family: "Gilroy-SemiBold", sans-serif;
-  line-height: 1.5;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-style: normal;
   font-weight: 400;
+  line-height: normal;
   background-color: #ffffff;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
