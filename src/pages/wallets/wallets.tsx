@@ -1,9 +1,9 @@
-import { MainHeader } from "../../components/main/main-header/main-header";
+import { TextField } from "../../components/text/textfield";
 
 export function Wallets() {
   return (
     <div>
-      <MainHeader text="Accounts" />
+      <TextField text="Accounts" colorKey="primary" size={24} />
     </div>
   );
 }

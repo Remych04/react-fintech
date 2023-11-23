@@ -1,9 +1,9 @@
-import { MainHeader } from "../../components/main/main-header/main-header";
+import { TextField } from "../../components/text/textfield";
 
 export function Activity() {
   return (
     <div>
-      <MainHeader text="Activity" />
+      <TextField text="Activity" colorKey="primary" size={24} />
     </div>
   );
 }

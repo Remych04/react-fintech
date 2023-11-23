@@ -22,14 +22,6 @@
   gap: 4px;
 }
 
-.name {
-  font-size: 12px;
-}
-
-.namesCreds {
-  font-size: 18px;
-}
-
 .cardCredsServiceBlock {
   display: flex;
   justify-content: space-between;
@@ -40,19 +32,4 @@
   flex-direction: column;
   align-content: flex-end;
   gap: 4px;
-}
-
-.cardNumber {
-  font-size: 14px;
-}
-
-.cardDate {
-  font-size: 11px;
-}
-
-p {
-  color: #fff;
-  display: inline;
-  margin: 0;
-  padding: 0;
 }

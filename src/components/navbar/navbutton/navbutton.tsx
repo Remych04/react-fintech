@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./navbutton.module.css";
 import { SvgComponent } from "../../../types/types";
 import { useLocation, useNavigate } from "react-router-dom";
+import { NavTextField } from "../navtext/navtextfield";
 
 type Props = {
   text: string;
@@ -36,9 +37,11 @@ export const NavButton = React.memo(function NavButtonComponent({
         width="24"
         height="24"
       />
-      <p className={isActive ? styles.textActive : styles.textInactive}>
-        {text}
-      </p>
+      <NavTextField
+        text={text}
+        colorKey={isActive ? "active" : "primary"}
+        weight={isActive ? 500 : 400}
+      />
     </div>
   );
 });

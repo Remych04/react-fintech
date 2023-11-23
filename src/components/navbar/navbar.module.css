@@ -15,16 +15,6 @@
   margin-bottom: 20px;
 }
 
-.name {
-  font-family: "Poppins", sans-serif;
-  color: #2f2f32;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  margin-left: 12px;
-}
-
 .navButtons {
   display: flex;
   flex-direction: column;

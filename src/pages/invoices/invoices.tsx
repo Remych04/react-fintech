@@ -1,9 +1,9 @@
-import { MainHeader } from "../../components/main/main-header/main-header";
+import { TextField } from "../../components/text/textfield";
 
 export function Invoices() {
   return (
     <div>
-      <MainHeader text="Invoices: IGV444XXXX" />
+      <TextField text="Invoices: IGV444XXXX" colorKey="primary" size={24} />
     </div>
   );
 }

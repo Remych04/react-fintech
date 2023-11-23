@@ -9,6 +9,7 @@ import ActivitySvg from "../../assets/navbar/activity.svg?react";
 import AnalyticsSvg from "../../assets/navbar/analytics.svg?react";
 
 import { NavButton } from "./navbutton/navbutton";
+import { NavTextField } from "./navtext/navtextfield";
 
 const buttons = [
   { text: "Dashobard", svg: DashboardSvg, path: "/dashboard" },
@@ -24,7 +25,7 @@ export function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.logo}>
         <img width="30px" height="30px" src={EpsilonLogo} alt="Epsilon Logo" />
-        <p className={styles.name}>Epsilon</p>
+        <NavTextField text="Epsilon" margin={12} colorKey="dark" weight={600} />
       </div>
       <div className={styles.navButtons}>
         {buttons.map((button) => {
